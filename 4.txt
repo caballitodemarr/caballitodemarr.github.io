@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Empresa</title>
+    <style>
+        /* Estilos CSS (los mismos que en los ejemplos anteriores) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            width: 50px; /* Ajusta el tamaño según tu necesidad */
+            height: auto;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #f0f0f0;
+        }
+
+        .hero h1 {
+            color: #333;
+        }
+
+        .hero p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .category-card {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 200px;
+            cursor: pointer;
+        }
+
+        .category-card a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Estilos para la sección de la galería de imágenes */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .gallery a {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Código del encabezado (header) -->
+    </header>
+
+    <div class="hero">
+        <!-- Código de la sección Hero -->
+    </div>
+
+    <div class="categories">
+        <!-- Código de la sección de categorías -->
+    </div>
+
+    <div class="gallery">
+        <div>
+            <a href="#comida1">
+                <img src="imagen_comida1.jpg" alt="Comida 1">
+                <p>Nombre de la Comida 1</p>
+            </a>
+        </div>
+        <div>
+            <a href="#comida2">
+                <img src="imagen_comida2.jpg" alt="Comida 2">
+                <p>Nombre de la Comida 2</p>
+            </a>
+        </div>
+        <div>
+            <a href="#ceviche1">
+                <img src="imagen_ceviche1.jpg" alt="Ceviche 1">
+                <p>Nombre del Ceviche 1</p>
+            </a>
+        </div>
+        <div>
+            <a href="#ceviche2">
+                <img src="imagen_ceviche2.jpg" alt="Ceviche 2">
+                <p>Nombre del Ceviche 2</p>
+            </a>
+        </div>
+        <div>
+            <a href="#bebida1">
+                <img src="imagen_bebida1.jpg" alt="Bebida 1">
+                <p>Nombre de la Bebida 1</p>
+            </a>
+        </div>
+        <div>
+            <a href="#bebida2">
+                <img src="imagen_bebida2.jpg" alt="Bebida 2">
+                <p>Nombre de la Bebida 2</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Resto del contenido de tu página -->
+
+</body>
+</html>
